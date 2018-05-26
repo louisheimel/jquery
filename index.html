@@ -1,0 +1,15 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <p id="output"></p> 
+        <script>
+          document.onkeypress = function(event) {
+            console.log('event is: ', event)
+            var userGuess = event.key
+            document.getElementById('output').innerHTML = event.key
+            //alert(e)
+          }
+        </script>
+  </body>
+</html>
